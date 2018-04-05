@@ -11,13 +11,16 @@ defmodule Mydemoproject.MixProject do
       package: package(),
       docs: [extras: ["README.md"],  # 文档的起始地址
             main: "readme"],
-      deps: deps()
+      deps: deps(),
+      name: "elixir-dockerbuild",
+      source_url: "https://github.com/rongfengliang/elixir-dockerbuild",
+      homepage_url: "https://github.com/rongfengliang/elixir-dockerbuild",
     ]
   end
   defp package do
     %{maintainers: ["dalongrong"],
     licenses: ["MIT"],
-    links: %{"GitHub" => "https://github.com/rongfengliang/userlogin"}}
+    links: %{"GitHub" => "https://github.com/rongfengliang/elixir-dockerbuild"}}
   end
   # Run "mix help compile.app" to learn about applications.
   def application do
